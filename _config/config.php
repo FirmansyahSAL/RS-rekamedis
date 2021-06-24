@@ -15,7 +15,7 @@ if (mysqli_connect_errno()) {
 // fungsi base_url
 function base_url($url = null)
 {
-	$base_url = "http://localhost/RS";
+	$base_url = "http://localhost:8074/RS";
 	if ($url != null) {
 		return $base_url . "/" . $url;
 	} else {
